@@ -1,0 +1,799 @@
+@media(min-width:992px) and (max-width:1199px){
+    .footer-nav {
+        display: block !important;
+    }
+    .copyright{
+        text-align: center;
+    }
+    .footer-nav .head-nav {
+        background: transparent;
+        text-align: left;
+    }
+    .footer-nav .navbar-nav{
+        display: contents;
+    }
+}
+/*============== CSS part start =================*/
+@media(min-width:768px) and (max-width:991px){
+    *{
+        box-sizing: border-box;
+    }
+    .animation-nav{
+        padding-top: 8px;
+    }
+    .head-nav{
+      background: #3e3677;   
+      z-index: 99999;
+    }
+    .head-nav ul{
+        text-align: center;
+    }
+    
+    /*============== Banner part start =================*/
+    #banner {
+        padding-top: 121px;
+        padding-bottom: 114px;
+    }
+    .banner-text h3 {
+        font-size: 22px;
+    }
+    .banner-text h3::after {
+       top: 60px;
+    }
+    .banner-text p {
+        padding: 0px 12px;
+        padding-top: 52px;
+    }
+    .banner-text a.btn {
+        margin-top: 16px;
+    }
+    .slick-dots {
+        bottom: -71px;
+    }
+    
+    /*============== Story part start =================*/
+    #story {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background: #ffffff;
+        z-index: 999;
+    }
+    .story-text h3 {
+        font-size: 20px;
+    
+    }
+    .story-text p {
+        line-height: 20px;
+        font-size: 12px;
+        padding-right: 12px;
+        padding-bottom: 0px; 
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+    }
+    
+    
+    /*============== Video part start =================*/
+    #video {
+        padding-top: 79px;
+        padding-bottom: 76px;
+     
+    }
+    .video-story img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 17px;
+    }
+    .video-story h3 {
+        font-size: 14px;
+    
+    }
+    /*============== Expertise part start =================*/
+    #service {
+        padding-top: 45px;
+        padding-bottom: 20px;
+    }
+    .service-item p {
+        padding: 0px 40px;
+    }
+    .head {
+        padding-bottom: 50px;
+    }
+    .head h3 {
+        font-size: 20px;
+    
+    }
+    .head p::after {
+        top: 45px;
+    }
+    .service-itemcol .em {
+        padding-bottom: 20px !important;
+    }
+    .nav{
+        display: flex;
+    }
+    .nav-pills .nav-item {
+        display: block;
+        margin-bottom: 5px;
+        margin-right: 0px;
+        width: 50%;
+        box-sizing: border-box;
+    }
+    /*============== Teams part start =================*/
+    #teams {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .head2 {
+        padding-bottom: 30px;
+    }
+    .head2 h3 {
+        font-size: 20px;
+    }
+    .head2 p {
+        font-size: 12px;
+    }
+    .head2 p::after {
+        top: 33px;
+    }
+    .team-text2 {
+        padding-top: 40px;
+    }
+    /*============== Works part start =================*/
+    
+    #work {
+        padding-bottom: 35px;
+    }
+    .head3 h3 {
+        font-size: 20px;
+    }
+    .head3 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .head3 p::after {
+        top: 44px;
+    }
+    .nav-pills .nav-item {
+        display: block;
+        margin-bottom: 5px;
+        margin-right: 0px;
+        width: 33%;
+        box-sizing: border-box;
+    }
+    .nav-pills .nav-link {
+        width: 100%;
+    }
+    .lo a {
+        margin-top: 35px;
+    }
+    
+    
+    /*============== Feedback part start =================*/
+    #feedback {
+        padding-top: 50px;
+        padding-bottom: 150px;
+    }
+    .feedback-item .quote-icon {
+        padding-bottom: 15px;
+    }
+    .feedback-item p {
+        padding: 0px 4px;
+        font-size: 14px;
+        line-height: 24px;
+    
+    }
+    .feedback .slick-dots {
+        top: 289px;
+    }
+    /*============== Contact part start =================*/
+    #contact {
+        padding-top: 30px;
+        padding-bottom: 43px;
+    }
+    .contact-head h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .contact-form input, 
+    .contact-form textarea {
+        width: 100%;
+    }
+    .co-button {
+        text-align: center;
+    }
+    .contact-form {
+        margin-bottom: 34px;
+    }
+     
+    .image-con-ri img{
+     
+       
+    }
+    .tl {
+        padding-left:0px; 
+    }
+    /*============== Footer part start =================*/
+    #footer {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    .footer-item{
+        text-align: center;
+    }
+    
+    .footer-item p {
+        padding: 0px 10px;
+        padding-top: 24px;
+    }
+    .ppp{
+        padding: 0px 65px!important;
+        padding-top: 10px!important;
+    }
+    .icon img{
+        padding-top: 27px;
+    }
+    .icon-l {
+        padding-top: 0px;
+    }
+    .icon-2 {
+        padding-top: 0px;
+    }
+    
+    .form-con{
+        padding-top: 90px;
+        position: relative;
+        
+    }
+    .form-con form{
+        top: 28px;
+        position: absolute;
+        left: 40%;
+        transform: translateX(-50%);
+    }
+    .form-con button {
+        width: 50px;
+        top: 0px;
+    }
+    .foot {
+        margin-top: 20px;
+    }
+    .footer-nav {
+        display: block !important;
+    }
+    .copyright{
+        text-align: center;
+    }
+    .footer-nav .head-nav {
+        background: transparent;
+        text-align: center;
+    }
+    .footer-nav .navbar-nav{
+        display: ruby;
+    }
+}
+/*============== CSS part start =================*/
+@media(min-width:576px) and (max-width:767px){
+
+/*============== Header part start =================*/
+
+*{
+    box-sizing: border-box;
+}
+.animation-nav{
+    padding-top: 8px;
+}
+.head-nav{
+  background: #3e3677;   
+  z-index: 99999;
+}
+.head-nav ul{
+    text-align: center;
+}
+
+/*============== Banner part start =================*/
+#banner {
+    padding-top: 121px;
+    padding-bottom: 114px;
+}
+.banner-text h3 {
+    font-size: 22px;
+}
+.banner-text h3::after {
+   top: 60px;
+}
+.banner-text p {
+    padding: 0px 12px;
+    padding-top: 52px;
+}
+.banner-text a.btn {
+    margin-top: 16px;
+}
+.slick-dots {
+    bottom: -71px;
+}
+
+/*============== Story part start =================*/
+#story {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #ffffff;
+    z-index: 999;
+}
+.story-text h3 {
+    font-size: 20px;
+
+}
+.story-text p {
+    line-height: 20px;
+    font-size: 12px;
+    padding-right: 12px;
+    padding-bottom: 0px; 
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+
+/*============== Video part start =================*/
+#video {
+    padding-top: 79px;
+    padding-bottom: 76px;
+ 
+}
+.video-story img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 17px;
+}
+.video-story h3 {
+    font-size: 14px;
+
+}
+/*============== Expertise part start =================*/
+#service {
+	padding-top: 45px;
+	padding-bottom: 20px;
+}
+.service-item p {
+	padding: 0px 40px;
+}
+.head {
+	padding-bottom: 50px;
+}
+.head h3 {
+    font-size: 20px;
+
+}
+.head p::after {
+    top: 45px;
+}
+.service-itemcol .em {
+    padding-bottom: 20px !important;
+}
+.nav{
+    display: flex;
+}
+.nav-pills .nav-item {
+	display: block;
+	margin-bottom: 5px;
+	margin-right: 0px;
+	width: 50%;
+	box-sizing: border-box;
+}
+/*============== Teams part start =================*/
+#teams {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.head2 {
+    padding-bottom: 30px;
+}
+.head2 h3 {
+    font-size: 20px;
+}
+.head2 p {
+    font-size: 12px;
+}
+.head2 p::after {
+    top: 33px;
+}
+.team-text2 {
+    padding-top: 40px;
+}
+/*============== Works part start =================*/
+
+#work {
+    padding-bottom: 35px;
+}
+.head3 h3 {
+    font-size: 20px;
+}
+.head3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.head3 p::after {
+    top: 44px;
+}
+.nav-pills .nav-item {
+    display: block;
+    margin-bottom: 5px;
+}
+.nav-pills .nav-link {
+    width: 100%;
+}
+.lo a {
+    margin-top: 35px;
+}
+
+
+/*============== Feedback part start =================*/
+#feedback {
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+.feedback-item .quote-icon {
+    padding-bottom: 15px;
+}
+.feedback-item p {
+    padding: 0px 4px;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+.feedback .slick-dots {
+    top: 289px;
+}
+/*============== Contact part start =================*/
+#contact {
+    padding-top: 30px;
+    padding-bottom: 43px;
+}
+.contact-head h3 {
+    font-size: 20px;
+    text-align: center;
+}
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+}
+.co-button {
+    text-align: center;
+}
+.contact-form {
+    margin-bottom: 34px;
+}
+ 
+.image-con-ri img{
+ 
+   
+}
+.tl {
+    padding-left:0px; 
+}
+/*============== Footer part start =================*/
+#footer {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.footer-item{
+    text-align: center;
+}
+
+.footer-item p {
+    padding: 0px 10px;
+    padding-top: 24px;
+}
+.ppp{
+    padding: 0px 65px!important;
+    padding-top: 10px!important;
+}
+.icon img{
+    padding-top: 27px;
+}
+.icon-l {
+    padding-top: 0px;
+}
+.icon-2 {
+    padding-top: 0px;
+}
+
+.form-con{
+    padding-top: 90px;
+    position: relative;
+    
+}
+.form-con form{
+    top: 28px;
+    position: absolute;
+    left: 40%;
+    transform: translateX(-50%);
+}
+.form-con button {
+    width: 50px;
+    top: 0px;
+}
+.foot {
+    margin-top: 20px;
+}
+.footer-nav {
+    display: block !important;
+}
+.copyright{
+    text-align: center;
+}
+.footer-nav .head-nav {
+    background: transparent;
+    text-align: center;
+}
+.footer-nav .navbar-nav{
+    display: ruby;
+}
+
+
+}
+
+
+
+
+/*============== CSSSSSSS =================*/
+
+
+@media (max-width:575.98px){
+
+
+/*============== Header part start =================*/
+
+    .animation-nav{
+        padding-top: 8px;
+    }
+    .head-nav{
+      background: #3e3677;   
+      z-index: 99999;
+    }
+    .head-nav ul{
+        text-align: center;
+    }
+/*============== Banner part start =================*/
+    #banner {
+        padding-top: 121px;
+        padding-bottom: 114px;
+    }
+    .banner-text h3 {
+        font-size: 22px;
+    }
+    .banner-text h3::after {
+       top: 60px;
+    }
+    .banner-text p {
+        padding: 0px 12px;
+        padding-top: 52px;
+    }
+    .banner-text a.btn {
+        margin-top: 16px;
+    }
+    .slick-dots {
+        bottom: -71px;
+    }
+
+ /*============== Story part start =================*/
+    #story {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background: #ffffff;
+        z-index: 999;
+    }
+    .story-text h3 {
+        font-size: 20px;
+
+    }
+    .story-text p {
+        line-height: 20px;
+        font-size: 12px;
+        padding-right: 12px;
+        padding-bottom: 0px; 
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+    }
+  
+
+    /*============== Video part start =================*/
+    #video {
+        padding-top: 79px;
+        padding-bottom: 76px;
+     
+    }
+    .video-story img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 17px;
+    }
+    .video-story h3 {
+        font-size: 14px;
+
+    }
+    /*============== Expertise part start =================*/
+    #service {
+        padding-top: 45px;
+        padding-bottom: 0px;
+    }
+    .head {
+        padding-bottom: 30px;
+    }
+    .head h3 {
+        font-size: 20px;
+
+    }
+    .head p::after {
+        top: 45px;
+    }
+    .service-itemcol .em {
+        padding-bottom: 20px !important;
+    }
+    /*============== Teams part start =================*/
+    #teams {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .head2 {
+        padding-bottom: 30px;
+    }
+    .head2 h3 {
+        font-size: 20px;
+    }
+    .head2 p {
+        font-size: 12px;
+    }
+    .head2 p::after {
+        top: 33px;
+    }
+    .team-text2 {
+        padding-top: 40px;
+    }
+    /*============== Works part start =================*/
+
+    #work {
+        padding-bottom: 35px;
+    }
+    .head3 h3 {
+        font-size: 20px;
+    }
+    .head3 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .head3 p::after {
+        top: 44px;
+    }
+    .nav-pills .nav-item {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .nav-pills .nav-link {
+        width: 100%;
+    }
+    .lo a {
+        margin-top: 35px;
+    }
+
+
+    /*============== Feedback part start =================*/
+    #feedback {
+        padding-top: 50px;
+        padding-bottom: 150px;
+    }
+    .feedback-item .quote-icon {
+        padding-bottom: 15px;
+    }
+    .feedback-item p {
+        padding: 0px 4px;
+        font-size: 14px;
+        line-height: 24px;
+
+    }
+    .feedback .slick-dots {
+        top: 336px;
+    }
+    /*============== Contact part start =================*/
+    #contact {
+        padding-top: 30px;
+        padding-bottom: 43px;
+    }
+    .contact-head h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .contact-form input, 
+    .contact-form textarea {
+        width: 100%;
+    }
+    .co-button {
+        text-align: center;
+    }
+    .contact-form {
+        margin-bottom: 34px;
+    }
+     
+    .image-con-ri img{
+     
+       
+    }
+    .tl {
+        padding-left:0px; 
+    }
+    /*============== Footer part start =================*/
+    #footer {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    .footer-item{
+        text-align: center;
+    }
+   
+    .footer-item p {
+        padding: 0px 10px;
+        padding-top: 24px;
+    }
+    .ppp{
+        padding: 0px 65px!important;
+        padding-top: 10px!important;
+    }
+    .icon img{
+        padding-top: 27px;
+    }
+    .icon-l {
+        padding-top: 0px;
+    }
+    .icon-2 {
+        padding-top: 0px;
+    }
+
+    .form-con{
+        padding-top: 90px;
+        position: relative;
+        
+    }
+    .form-con form{
+        top: 28px;
+        position: absolute;
+        left: 40%;
+        transform: translateX(-50%);
+    }
+    .form-con button {
+        width: 50px;
+        top: 0px;
+    }
+    .foot {
+        margin-top: 20px;
+    }
+    .footer-nav .head-nav .nav-item:first-child {
+        padding-left: 0; 
+    }
+    .footer-nav .head-nav .nav-item {
+        margin-right: 0px; 
+    }
+
+
+
+   
+
+
+
+
+
+    /*============== Banner part start =================*/
+    /*============== Banner part start =================*/
+    /*============== Banner part start =================*/
+    /*============== Banner part start =================*/
+
+
+
+
+
+
+
+
+
+
+
+
+}
